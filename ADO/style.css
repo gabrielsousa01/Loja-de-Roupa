@@ -1,0 +1,213 @@
+/** configurações gerais**/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(231, 228, 228);
+    font-family: calibri;
+    margin: 0;
+}
+
+#cabeçalho{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px; 
+}
+
+#logo{
+    text-align: center;
+    padding: 10px;
+    pointer-events: none;/**usuário não vai conseguir selecionar o imagem**/
+}
+
+.menu{
+    display: flex; /**para organoizar os itens um do lado do outro**/
+    justify-content: space-evenly;/**atributo utilizado com display - definir posição**/
+    font-size: 30px;
+    padding: 5px; /**margem de dentro**/
+    user-select: none; /**usuário não vai conseguir selecionar o texto**/
+    overflow: hidden;/**para impedir que o conteudo estoure**/
+}
+
+.menu a{
+    text-decoration: none;/**tirar o link da palavra**/
+    Color: black;
+}
+
+.menu a:hover{/**muda aspecto ao passar o mouse em cima**/
+    color: orange;
+}
+
+.card{
+    width: 95,5%; /**defini o quanto vai ocupar da pagina**/
+    background-image: url(./video/promoção.gif);
+    background-size: 350px;
+    padding: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -20px;
+    
+}
+
+.catalogo{
+    width: 95,5%;
+    background-color:  white;
+    background-size: 350px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    overflow: hidden;/**para impedir que o conteudo estoure**/
+    padding: -50px;
+
+}
+
+.catalogo h2{
+    text-align: center;
+}
+
+.fidelidade{
+    padding: 100px;
+    margin: 20px orange;
+}
+
+.fidelidade h1{
+    color: orange;
+    text-align: center;
+}
+
+.fidelidade p{
+    font-size: 20px;
+}
+
+.categoria{
+    text-align: center;
+}
+.categoria img:hover{
+    width: 400px;
+}
+
+.marcas{
+    padding: 70px;
+    text-align: center;
+}
+
+.marcas img{
+    height: 250px; /**denidir o tamanho da imagem**/
+    padding: 50px;
+}
+
+.empresa{
+    width: 95,5%;
+    background-color:  white;
+    background-size: 350px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -20px;
+    font-size: 22px;/**denifir o tamanho da fonte**/
+}
+
+.empresa h1{
+    color: orange;
+
+}
+
+.roupa img{
+    height: 450px;
+    padding: 10px;
+
+}
+
+.roupa{
+    margin-right: 50px;
+    text-align: center;
+    padding: 50px;
+
+}
+.roupa:hover{
+    box-shadow: 3px 3px 3px 3px rgb(78, 75, 75);
+ 
+}
+
+.produto{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr) ); /**para organizar as colunas**/
+}
+
+.produto p{
+    font-size: 19px;
+}
+
+.Tenis:hover{
+    box-shadow: 3px 3px 3px 3px rgb(78, 75, 75);
+
+}
+
+.tenis{
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 10000px;
+}
+
+.Tenis img{
+    padding: 60px;
+}
+
+.produtoT{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(600px, 1fr) ); /**para organizar as colunas**/
+    text-align: center;
+    padding: 60px;
+}
+
+#pedido{
+    position: fixed; /**deixar em um local fixo na pagina**/
+    bottom: 5px; 
+    right: 10px;
+}
+
+#pedido img{
+    height: 50px;
+    border-radius: 10%;
+}
+
+.opções{
+    display: flex; /**para organoizar os itens um do lado do outro**/
+    justify-content: space-evenly;/**atributo utilizado com display - definir posição**/
+    font-size: 35px;
+    padding: 5px; /**margem de dentro**/
+    user-select: none; /**usuário não vai conseguir selecionar o texto**/
+    overflow: hidden;/**para impedir que o conteudo estoure**/
+}
+
+.opções a{
+    text-decoration: none;/**tirar o link da palavra**/
+    color:black
+}
+
+.opções a:hover{/**muda aspecto ao passar o mouse em cima**/
+    color: orange;
+}
+
+.contato{
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.contato a{
+    text-decoration: none;/**tirar o link da palavra**/
+    color:black
+}
+
+.contato img{
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+
